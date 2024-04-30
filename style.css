@@ -1,0 +1,133 @@
+body {
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+    background-color: rgba(205, 113, 185, 0.732);
+    color: black;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 30px;
+}
+
+header {
+    padding: 20px 40px;
+    align-items: center;
+    background-color: rgb(195, 64, 147);
+}
+
+header h1 {
+    grid-column: span 6;
+
+}
+
+header nav {
+    grid-column: 7/span 6;
+    justify-self: right;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    margin-right: 30px;
+
+}
+
+header a:hover {
+    color: white;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 60px auto;
+}
+
+main img {
+    grid-column: span 6;
+    width: 100%;
+}
+
+.main_heading {
+    grid-column: 8/ span 5;
+    text-align: center;
+    margin-top: 70px;
+
+}
+
+.shop_link {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: black;
+    color: aliceblue;
+}
+
+.shop_link:hover {
+    background-color: white;
+    color: black;
+}
+
+main h3 {
+    grid-column: span 12;
+    text-align: center;
+    font-size: 2em;
+}
+
+.menu {
+    grid-column: span 4;
+}
+
+.menu_button {
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border: 0;
+}
+
+.menu_button:hover {
+    background-color: azure;
+    color: black;
+}
+
+
+
+footer {
+    padding: 20px 40px;
+    align-items: center;
+    background-color: rgb(195, 64, 147);
+}
+
+footer h5 {
+    grid-column: span 4;
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+
+footer a {
+    text-decoration: none;
+    margin-right: 30px;
+    color: black;
+}
+
+footer a:hover {
+    color: azure;
+}
+
+footer form {
+    grid-column: 10/span 3;
+}
+
+.form_submit {
+    padding: 5px 10px;
+    background-color: black;
+    color: white;
+    border: 0;
+
+}
+
+.form_submit:hover {
+    background-color: white;
+    color: black;
+}
